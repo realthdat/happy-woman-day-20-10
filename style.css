@@ -155,15 +155,11 @@ body {
   width: 8vmin;
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #ffb3c6; /* Chỉnh sang màu hồng nhạt */
-  background-image: linear-gradient(
-    to top,
-    #ff6685,
-    #ffb3c6
-  ); /* Chuyển màu hồng đậm sang nhạt */
+  background-color: #ffffff; /* Màu trắng */
+  background-image: linear-gradient(to top, #d9d9d9, #ffffff);
   transform-origin: bottom center;
   opacity: 0.9;
-  box-shadow: inset 0 0 2vmin rgba(255, 182, 193, 0.5); /* Hiệu ứng bóng với màu hồng nhạt */
+  box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
 }
 .flower__leaf--1 {
   transform: translate(-10%, 1%) rotateY(40deg) rotateX(-50deg);
@@ -314,11 +310,11 @@ body {
   width: 1.5vmin;
   background-image: linear-gradient(
       to left,
-      rgba(255, 192, 203, 0.2),
-      /* Màu hồng nhạt */ transparent,
-      rgba(255, 192, 203, 0.4) /* Tăng độ đậm màu hồng */
+      rgba(34, 139, 34, 0.2), /* Xanh lá cây Forest Green */
+      transparent,
+      rgba(34, 139, 34, 0.4)
     ),
-    linear-gradient(to top, transparent 10%, #ff8aab, #ffb6c1); /* Chuyển đổi màu hồng cho phần thân cây */
+    linear-gradient(to top, transparent 10%, #228b22, #32cd32);
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
   animation: grow-flower-tree 4s backwards;
 }
